@@ -39,6 +39,11 @@ function wcme_options_page() {
 				<label class="description" for="wcme_settings[email_1]"><?php _e('', 'wcme_domain'); ?></label>
 			</p>
 
+			<p>
+				<input size="70" id="wcme_settings[email_6]" name="wcme_settings[email_6]" type="text" value="<?php echo $wcme_options['email_6']; ?>"/><br>
+				<label class="description" for="wcme_settings[email_1]"><?php _e('', 'wcme_domain'); ?></label>
+			</p>
+
 
 			<h4><?php _e('Select the WooCommerce Mails you want to have multiple recipients', 'wcme_domain'); ?></h4>
 			<h5><?php _e('WooCommerce Core', 'wcme_domain'); ?></h5>
